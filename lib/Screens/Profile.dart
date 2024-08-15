@@ -134,8 +134,6 @@ class _profileWidgetState extends State<profileWidget> {
                 itemCount: menu.length,
                 itemBuilder: (context,index){
 
-
-
                   String subtitle;
                   switch (index) {
                     case 0:
@@ -150,9 +148,6 @@ class _profileWidgetState extends State<profileWidget> {
                     default:
                       subtitle = 'Required a Help ? ';
                   }
-
-
-
 
                   return Card(
                     margin: EdgeInsets.symmetric(vertical: 15),
